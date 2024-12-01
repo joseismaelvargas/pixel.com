@@ -1,0 +1,413 @@
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+
+ 
+    
+    
+}
+.logonav{
+    margin: 0px 10px;
+    display: flex;
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center
+  }
+body{
+    overflow-x: hidden;
+    background: url(img/bg.png);
+    font-family: sans-serif;
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+.item a{
+ color: black;
+   margin: 0 10px;
+   
+   text-decoration: none;
+   font-weight: bold;
+} 
+.buttonnav{
+ background-color: rgb(197, 59, 4);
+ color: white;
+ font-family: sans-serif;
+ font-weight: bold;
+ border-radius: 10px;
+ border: none;
+ width: 130px;
+ height: 50px;
+ padding: 10px 20px   ;
+ cursor: pointer;
+ margin: -10PX 30px;
+
+}
+.item{
+    margin: 40px;
+    display: flex;
+    
+}
+/* main */
+.containermain{
+  display: flex;
+  justify-content: space-around;
+ 
+  margin: 0px 80px;
+  width: 80%;
+  height: 500px;
+  
+ 
+
+}
+.imgmain{
+  width: 400px;
+  height: 400px;
+  margin: 0px 60px;
+
+}
+/* landig */
+.landing{
+background-color: #ce4949;
+
+ width:100%;
+ height: 1500px;
+   flex-direction: column;
+   justify-content: center;
+  display: flex;
+  flex-wrap: wrap
+  
+
+}
+.nosotros{
+  margin: 0px 400px 50px ;
+  text-align: center;
+  width: 500px;
+  color: white;
+  height: 300px;
+  font-weight: bold;
+  max-width: 90%; /* Ancho máximo del elemento */
+  height: auto; /* Altura automática */
+
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  
+}
+.cajaPadre{
+  
+  display: flex;
+  justify-content: center;
+   
+}
+.caja1,.caja2,.caja3{
+  font-weight: bold;
+  padding: 10px 10px;
+  flex-direction: column;
+  text-align: center;
+  width: 280px;
+  height: 320px;
+  background-color: rgb(241, 240, 238);
+   color: rgb(114, 113, 112);
+  border-radius: 10px;
+  margin: 0 auto 50px; /* Márgenes automáticos en los lados */
+  
+  
+}
+#title-caja{
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40;
+  color: rgb(255, 72, 0);
+
+  
+}  
+.cajaPadre span{
+  font-size: 50px;
+  margin: 10px;
+}
+.pixel{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: 0px 100px;
+  flex-wrap: wrap;
+ 
+  /* margin: 0px 20px 300px; */
+  
+
+}
+.pixel1{
+ 
+ width: 500px;
+ height: 400px;
+}
+.verMas{
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: rgb(218, 96, 96);
+  border: solid 1px white;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.verMas:hover{
+  background-color: azure;
+  color: black;
+}
+/* section */
+.SobreElequipo{
+  
+  margin: 100px 200px;
+  text-align: center;
+  width: 700px;
+  height: 200px;
+}
+.diseñadores{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center
+
+
+}
+.estrategas{
+  display: flex;
+  flex-direction: row;
+  margin: 200px;
+  text-align: center;
+
+}
+.parrafo{
+  text-align: left;
+  margin: 0px 100px;
+  width: 400px;
+  height:400px ;
+ 
+  
+}
+.parrafo p{ 
+  font-size: 20px;
+  
+  color:gray ;
+}
+/* TARGET */
+.target{
+  background-color: #f3f3f3;
+  background-image: linear-gradient(45deg, #d43b30d3 0%, #ce4949 100%);
+
+
+width: 1000px;
+height: 500px;
+margin: 300px 130px;
+border-radius: 20px;
+text-align: center;
+}
+
+form button{
+  width: 200px;
+  padding: 16px;
+  border: none;
+  border: solid 1px white;
+  background-color: #f3f3f3;
+  background-image: linear-gradient(45deg, #d43b30d3 0%, #ce4949 100%);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  
+}
+form input{
+  border: none;
+  height: 40px;
+  width: 250px;
+  /* text-align: center; */
+  border-radius: 10px;
+  box-shadow: rgb(255, 253, 253) 1px 1px 1px 2px;
+  margin: 0px 20px;
+  text-decoration: overline;
+
+ 
+  
+}
+.formthend{
+ 
+}
+.form{
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+  margin: -50px;
+}
+.form form{
+  display: flex;
+  flex-direction: column; 
+  margin: 0px 170px;
+}
+.form input{
+  margin: 10px;
+}
+.form label{
+  font-weight: bold;
+  color: rgb(11, 11, 107);
+  
+  
+}
+.containertarget{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+   margin: 100px 220px 0px;
+  width: 600px;
+  height: 400px;
+
+}
+  
+  /* footer */
+  footer{
+  width: 100%;
+  height: auto;  
+  background-color: rgb(242, 242, 255);
+ 
+  
+  }
+  .footerContainer{
+    margin: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+
+  .flex1, .flex2, .flex3, .flex4, .flex5 {
+    font-weight: bold;
+    margin: 50px; 
+  }
+  
+  .bi{
+    margin: 10px;
+    font-size: 20px;
+    color:  rgb(95, 97, 97);
+  }
+  footer p{
+    color: rgb(122, 122, 122);
+  } 
+  @media only screen and (max-width: 700px) {
+    body {
+      overflow-x: hidden;
+      margin: 0px 30px;
+  }
+    .navContainer {
+        flex-direction: column; 
+        /* width: 1000px; height: 100px;
+        margin: 50px; */
+    }
+
+    .item {
+        margin-top: 20px; 
+    }
+    .logonav{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .buttonnav{
+        margin-top: -10px ;
+    }
+   
+    footer{
+        width: 750px;
+    }
+    .footerContainer{
+       justify-content: space-evenly;
+    }
+    
+   
+  
+    /* #title-caja{
+      font-size: 40px;
+    }
+    .caja3 p{
+      font-size: 27px;
+      justify-content: center;
+    }
+    .caja2 p{
+      font-size: 27px;
+    }
+    .caja1 p{
+      font-size: 27px;
+    } */
+    /* nosotros */
+.landing{
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 2000px;
+}
+  
+.nosotros {
+
+      /* max-width: 100%; En pantallas más pequeñas, el ancho máximo es el 100% */
+      margin: 0 auto 30px; /* Márgenes automáticos, menos espacio inferior */
+    }
+  
+    .caja1, .caja2, .caja3 {
+      width: 100%; /* Cambiar el ancho al 100% para ocupar todo el ancho de la pantalla */
+      height: auto; /* Permitir que la altura se ajuste automáticamente según el contenido */
+      margin: 0 auto 20px; /* Reducir el margen inferior */
+      flex-direction: column;
+    }
+  .imgmain{
+    width: 300px;
+  }
+.containermain{
+  flex-direction: column;
+  margin-bottom: 300px;
+}
+
+.estrategas{
+flex-direction: column;
+
+}
+
+.target{
+  margin: 0px  20px;
+  width: 700px;
+}
+.containertarget{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+  
+}
+.form{
+  flex-direction: column;
+  margin: 20px 40px;
+}
+.SobreElequipo{
+  margin: 0px 20px
+}
+
+ }
+ 

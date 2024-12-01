@@ -1,6 +1,5 @@
 
-
-import './App.css'
+import { Nav } from "./components/nav"
 
 function App() {
 
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <>
-     <h1>Copilacion completada</h1>
+     <Nav></Nav>
     </>
   )
 }
